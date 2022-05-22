@@ -1,0 +1,5 @@
+graph G {
+    a -> c;
+    b [weight=2400];
+    a -- b;
+}

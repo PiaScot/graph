@@ -1,0 +1,15 @@
+digraph {
+    A;B;C;
+
+    subgraph Rel1 {
+        edge [dir=none, color=red]
+        A -> B -> C -> A
+    }
+
+    subgraph Rel2 {
+        edge [color=blue]
+
+        B -> C
+        C -> A
+    }
+}
